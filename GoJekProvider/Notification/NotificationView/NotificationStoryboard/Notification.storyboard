@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification Controller-->
+        <scene sceneID="1Nj-de-dGL">
+            <objects>
+                <viewController storyboardIdentifier="NotificationController" id="Txc-a7-vVD" customClass="NotificationController" customModule="GoJekProvider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5fS-zY-5UO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WWL-3g-nIE">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="backgroundColorId">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Txc-a7-vVD" id="0RH-LC-UaA"/>
+                                    <outlet property="delegate" destination="Txc-a7-vVD" id="3pa-Ku-skX"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WWL-3g-nIE" firstAttribute="bottom" secondItem="ftM-PL-bF4" secondAttribute="bottom" id="Eb3-Ld-uzA"/>
+                            <constraint firstItem="WWL-3g-nIE" firstAttribute="trailing" secondItem="ftM-PL-bF4" secondAttribute="trailing" id="Mzc-Rl-fRN"/>
+                            <constraint firstItem="WWL-3g-nIE" firstAttribute="leading" secondItem="ftM-PL-bF4" secondAttribute="leading" id="cQD-ee-hdS"/>
+                            <constraint firstItem="WWL-3g-nIE" firstAttribute="top" secondItem="ftM-PL-bF4" secondAttribute="top" id="dk0-Xc-gcV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ftM-PL-bF4"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="WWL-3g-nIE" id="E0E-82-XZ2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ykm-lb-pKO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="114.69265367316342"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,517 @@
+/*
+ Localizable.strings
+ GoJekProvider
+ 
+ Created by CSS on 12/04/19.
+ Copyright © 2019 Appoets. All rights reserved.
+ */
+
+
+//Login Constant
+
+"Service Selection"                       = "اختيار الخدمة";
+"Service Ongoing"                         = "الخدمة مستمرة";
+"Rate Service"                            = "معدل الخدمة";
+"Sign In"                                 = "تسجيل الدخول";
+"Sign Up"                                 = "سجل";
+"Social Login"                            = "تسجيل الدخول الاجتماعي";
+"Connect via Google"                      = "الاتصال عبر جوجل";
+"Connect via Facebook"                    = "الاتصال عبر موقع التواصل الاجتماعي الفيسبوك";
+"Login Via"                               = "تسجيل الدخول عن طريق";
+"Forgot Password Via"                     = "نسيت كلمة المرور";
+"Forgot Password?"                        = "هل نسيت كلمة المرور؟";
+"or"                                      = "أو";
+"Dont't have an account"                  = "ليس لديك حساب";
+"Create Account"                          = "إنشاء حساب";
+"Already have an account"                 = "هل لديك حساب";
+"I accept the following Terms and conditions"    = "أوافق على الشروط والأحكام التالية";
+"Cannot make call at this moment"                = "لا يمكن إجراء مكالمة في هذه اللحظة";
+"Could not open Email at the moment."            = "لا يمكن فتح البريد الإلكتروني في الوقت الحالي.";
+"Choose Country Code"                     = "اختر كود البلد";
+"Forgot Password"                         = "هل نسيت كلمة المرور";
+"Choose Country"                          = "اختر البلد";
+"Choose State"                            = "اختيار الدولة";
+"Choose City"                             = "اختر مدينة";
+"Gender"                                  = "جنس";
+"Male"                                    = "الذكر";
+"Female"                                  = "إناثا";
+"User Name"                               = "اسم المستخدم";
+"First Name"                              = "الاسم الاول";
+"Last Name"                               = "الكنية";
+"Code"                                    = "الشفرة";
+"Phone Number"                            = "رقم الهاتف";
+"Email Id"                                = "عنوان الايميل";
+"Password"                                = "كلمه السر";
+"Country"                                 = "بلد";
+"City"                                    = "مدينة";
+"State"                                   = "حالة";
+"Expiry Date"                             = "تاريخ الانتهاء";
+"Old Password"                            = "كلمة المرور القديمة";
+"New Password"                            = "كلمة السر الجديدة";
+"Otp"                                     = "Otp";
+"picture"                                 = "صورة";
+"Referral(Optional)"                      = "إحالة (اختياري)";
+"Terms and Conditions"                    = "الأحكام والشروط";
+"No Country Found"                        = "لم يتم العثور على دولة";
+"No City Found"                           = "لم يتم العثور على مدينة";
+"No Country Code Found"                   = "لم يتم العثور على رمز البلد";
+"VERIFY"                                  = "تحقق";
+"First Name"                              = "الاسم الاول";
+"Country"                                 = "بلد";
+"State"                                   = "حالة";
+"Service Request"                         = "طلب خدمة";
+
+"Help make the world better with your amazing services." = "ساعد في جعل العالم أفضل بخدماتك الرائعة.";
+"Service seekers are always happy to see you assist them." = "يسعد الباحثون عن الخدمة دائمًا بمساعدتكم.";
+"(optional)" = "(اختياري)";
+"Enter the OTP received on the registered mobile number" = "أدخل OTP المستلم على رقم الهاتف المحمول المسجل";
+
+
+
+// Alert message
+"Please enter your Email Id"            = "الرجاء إدخال اسم المستخدم البريد الالكتروني";
+"Please enter valid Email Id"           = "الرجاء إدخال معرف بريد إلكتروني صالح";
+"Please enter your Password"            = "من فضلك أدخل رقمك السري";
+"Please enter your Old Password"        = "الرجاء إدخال كلمة المرور القديمة";
+"Please enter your New Password"        = "الرجاء إدخال كلمة المرور الجديدة";
+"Please enter your New Password"        = "الرجاء إدخال كلمة المرور الجديدة";
+"Please enter your Phone Number"        = "يرجى إدخال رقم الهاتف الخاص بك";
+"Please enter Valid Phone Number"       = "الرجاء إدخال رقم هاتف صحيح";
+"Please select your city"               = "يرجى اختيار مدينتك";
+"Please select your Country"            = "يرجى اختيار بلدك";
+"Please select your Country Code"       = "يرجى اختيار كود البلد الخاص بك";
+"Please enter your User Name"           = "الرجاء إدخال اسم المستخدم";
+"Password Must have Atleast 6 Characters."  = "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل.";
+"Please enter Firstname"                = "الرجاء إدخال الاسم الأول";
+"Please enter Lastname"                 = "الرجاء إدخال اسم العائلة";
+"Please select your state"              = "يرجى اختيار ولايتك";
+"Please accept terms and conditions"    = "يرجى قبول الشروط والأحكام";
+"Old password and new password not be same" = "كلمة المرور القديمة وكلمة المرور الجديدة لا تكون هي نفسها";
+"New password and confirm password should be same"  = "كلمة المرور الجديدة وتأكيد كلمة المرور يجب أن تكون هي نفسها";
+"Your password has been changed. Please login with new password"    = "تم تغيير كلمة السر الخاصة بك. يرجى تسجيل الدخول بكلمة مرور جديدة";
+"Please signup this account."   = "يرجى الاشتراك في هذا الحساب.";
+"Please place at DoorStep" = "يرجى وضع في باب الخطوة";
+
+
+//MyAccount Constant
+
+"Your Referral Code" = "رمز الإحالة الخاص بك";
+"Referral Count" = "عدد الإحالة";
+"Referral Amount" = "مبلغ الإحالة";
+"My Account" = "حسابي";
+"Profile" = "الملف الشخصي";
+"Manage Address" = "إدارة العنوان";
+"Payment" = "دفع";
+"Transaction" = "عملية تجارية";
+"Invite Referrals" = "دعوة الإحالات";
+"Privacy Policy" = "سياسة خاصة";
+"Manage Services" = "إدارة الخدمات";
+"Manage Documents" = "إدارة المستندات";
+"Language" = "لغة";
+"Support" = "الدعم";
+"Call" = "مكالمة";
+"Mail" = "بريد";
+"Website" = "موقع الكتروني";
+"Contact Our Team Via" = "الاتصال خارج فريق عبر";
+"You can contact our team \n\n anytime for your queries." = "يمكنك الاتصال بالفريق \n\n في أي وقت لاستفساراتك.";
+"Change Password ?" = "غير كلمة السر ؟";
+"Change Password" = "غير كلمة السر";
+"$100" = "$100";
+"$500" = "$500";
+"$1000" = "$1000";
+"Create new password" = "إنشاء كلمة مرور جديدة";
+"Reset Password" = "إعادة تعيين كلمة المرور";
+"OTP Verification" = "التحقق من OTP";
+"Invalid OTP" = "مكتب المدعي العام غير صالح";
+"Enter OTP" = "أدخل OTP";
+"Are you sure want to logout?" = "هل تريد بالتأكيد تسجيل الخروج؟";
+"Logout" = "الخروج";
+"Upload" = "رفع";
+"Select Language" = "اختار اللغة";
+"Save" = "حفظ";
+"Language" = "لغة";
+"+" = "+";
+"Hey, I am using  \(APPConstant.AppDetails.appName) and invite you to join! Use my Referral code: " = "مهلا ، أنا أستخدم  \(APPConstant.AppDetails.appName) وأدعوك للانضمام! استخدم رمز الإحالة الخاص بي: ";
+"Have a good day!" = "اتمنى لك يوم جيد!";
+"Invite your friends and earn" = "ادع أصدقائك و اربح";
+"for every" = "لكل";
+"new users" = "مستخدمون جدد";
+"Cancel" = "إلغاء";
+"Submit" = "خضع";
+"MANUAL" = "كتيب";
+"I am ready to Drive" = "أنا مستعد للقيادة";
+"I am ready to Deliver" = "أنا مستعد للتسليم";
+"I am ready to Serve" = "أنا مستعد للخدمة";
+"Setup your Vehicle" = "إعداد سيارتك";
+"Setup your Deliveries" = "إعداد التسليم الخاص بك";
+"Setup your Services" = "إعداد الخدمات الخاصة بك";
+"Car Category" = "فئة السيارات";
+"Vehicle Model" = "طراز السيارة";
+"Vehicle Year" = "سنة السيارة";
+"Vehicle Color" = "لون المركبة";
+"Vehicle License Plate" = "لوحة ترخيص المركبات";
+"Vehicle Make" = "صناعة المركبات";
+"Document Upload" = "تحميل المستند";
+"RC Book" = "RC كتاب";
+"Insurance" = "تأمين";
+"Vehicle Name" = "اسم المركبة";
+"Add Vehicle" = "أضف مركبة";
+"Rate:" = "معدل:";
+"Upload Front Page" = "تحميل الصفحة الأولى";
+"Upload Back Page" = "تحميل العودة الصفحة";
+"Common Documents" = "الوثائق المشتركة";
+"Transport Documents" = "وثائق النقل";
+"Delivery Documents" = "وثائق التسليم";
+"Services Documents" = "وثائق الخدمات";
+"Select Expiry Date" = "حدد تاريخ انتهاء الصلاحية";
+"Please Upload Front Image" = "يرجى تحميل الصورة الأمامية";
+"Please Upload Back Image" = "يرجى تحميل الصورة مرة أخرى";
+"No Service available" = "لا توجد خدمة متاحة";
+"Please Add base fare" = "يرجى إضافة قاعدة الأجرة";
+"Language updated successfully" = "تم تحديث اللغة بنجاح";
+"Bank details" = "تفاصيل البنك";
+"Earnings" = "أرباح";
+"No Bank details" = "لا تفاصيل البنك";
+"Next" = "التالى";
+"Show my vehicles" = "عرض المركبات الخاصة بي";
+"Show my Deliveries" = "عرض بلدي التسليم";
+"Show my Services" = "عرض خدماتي";
+
+"Expiry"            = "انقضاء";
+
+"Add Vehicle Successfully"      = "أضف مركبة بنجاح";
+"Edit Vehicle Successfully"     = "تحرير السيارة بنجاح";
+"No Service"                    = "لاتوجد خدمة";
+"Today"                         = "اليوم";
+"This week"                     = "هذا الاسبوع";
+"This month"                    = "هذا الشهر";
+"Please Upload Front Pdf"       = "يرجى تحميل الجبهة قوات الدفاع الشعبي";
+"Please Upload Back Pdf"        = "يرجى تحميل العودة قوات الدفاع الشعبي";
+"view"                          = "رأي";
+" (Front)"                      = " (أمامي)";
+" (Back)"                       = " (الى الخلف)";
+"Today's Completed Target"      = "الهدف المكتمل اليوم";
+"This week Target"              = "هذا الأسبوع الهدف";
+"This month Target"             = "هذا الشهر الهدف";
+"Please Enter the Vehicle Name" = "الرجاء إدخال اسم المركبة";
+"Please Enter the Vehicle License Plate"    = "الرجاء إدخال لوحة ترخيص السيارة";
+"Please Enter the Car Category"     = "الرجاء إدخال فئة السيارة";
+"Please Enter the Vehicle Model"    = "يرجى إدخال طراز السيارة";
+"Please Enter the Vehicle Year"     = "يرجى إدخال سنة السيارة";
+"Please Enter the Vehicle Color"    = "الرجاء إدخال لون المركبة";
+"Please Enter the Vehicle Make"     = "يرجى إدخال السيارة";
+"Are you sure want to delete card?" = "هل تريد بالتأكيد حذف البطاقة؟";
+ "Pdf Viewer"                       = "عارض Pdf";
+"Mail"                              = "بريد";
+"Have a good day!"                  = "اتمنى لك يوم جيد!";
+"I am ready to Courier"             = "أنا مستعد للساعي";
+"Please select Expiry Date"         = "يرجى تحديد تاريخ انتهاء الصلاحية";
+"Please select valid Expiry Date"   = "الرجاء تحديد تاريخ انتهاء صالح";
+"Wheel Chair"                       =  "كرسي متحرك";
+"Child Seat"                        = "مقعد الطفل";
+"No Document available"             = "لا يتوفر مستند";
+"No Service Found"                  = "لم يتم العثور على خدمة";
+"Scan for send or receive amount"   = "المسح بحثًا عن إرسال أو استقبال المبلغ";
+"Send Amount"                       = "إرسال المبلغ";
+"Receive Amount"                    = "تلقي المبلغ";
+"COMMON"                            = "مشترك";
+
+
+//Payment
+"Saved Card"            = "البطاقة المحفوظة";
+"Card for receiving the customer payment"   = "بطاقة لاستلام دفع العميل";
+"Wallet"                = "محفظة نقود";
+"Enter Amount"          = "أدخل المبلغ";
+"Add Amount"            = "إضافة المبلغ";
+"Old Password"          = "كلمة المرور القديمة";
+"New Password"          = "كلمة السر الجديدة";
+"Confirm Password"      = "تأكيد كلمة المرور";
+"Add Card Payments"    =  "إضافة مدفوعات البطاقات";
+"Choose Payment"             =  "اختيار الدفع";
+"Available Payments"         = "المدفوعات المتاحة";
+
+//Message
+"Updated Successfully"          = "تم التحديث بنجاح";
+"please upload Vehicle Image"   = "يرجى تحميل صورة مركبة";
+"please upload RC Book Image"   = "يرجى تحميل صورة كتاب RC";
+"please upload Insurance Image" = "يرجى تحميل صورة التأمين";
+"Please add card "              = "يرجى إضافة بطاقة ";
+"Please select card"            = "يرجى اختيار البطاقة";
+"Please add valid amount"       = "الرجاء إضافة مبلغ صالح";
+"Please enter card number"      = "الرجاء إدخال رقم البطاقة";
+"Please enter month"            = "الرجاء إدخال الشهر";
+"Please enter cvv number"       = "الرجاء إدخال رقم السيرة الذاتية";
+"Please enter year"             = "يرجى إدخال السنة";
+"No Transaction"                = "لا المعاملات";
+"Bank Details Updated sucessfully"  = "تفاصيل البنك تحديث بنجاح";
+"Amount Added Successfully"         = "تمت إضافة المبلغ بنجاح";
+
+//Taxi
+"Chat"                                    = "دردشة";
+"Start Trip"                              = "بدء الرحلة";
+"Picked up"                               = "التقط";
+"Tap When Dropped"                        = "اضغط عند المسقطة";
+"Confirm Payment"                         = "تأكيد الدفع";
+"Invoice"                                 = "فاتورة";
+"Source and Destination"                  = "المصدر والوجهة";
+"Booking ID"                              = "معرف الحجز";
+"Distance Travelled"                      = "المسافة المقطوعة";
+"Waiting Charge"                          = "انتظار المسؤول";
+"Time Taken"                              = "الوقت المستغرق";
+"Distance Fare"                           = "أجرة المسافة";
+"Tax"                                     = "ضريبة";
+"Tips"                                    = "نصائح";
+"Total"                                   = "مجموع";
+"Payment Via"                             = "الدفع عن طريق";
+"Base Fare"                               = "الاجرة الاساسية";
+"Pickup Location"                         = "اختر موقعا";
+"Drop Location"                           = "إسقاط الموقع";
+"Enter valid OTP"                         = "أدخل صالح OTP";
+"Wating Time"                             = "وقت الانتظار";
+"Toll Charge"                             = "تهمة حصيلة";
+"ADD"                                     = "أضف";
+"Submit"                                  = "خضع";
+"SOS"                                     = "نجدة";
+"MENU"                                    = "قائمة طعام";
+"TIME"                                    = "زمن";
+"TRANSPORT"                               = "المواصلات";
+"Transport"                               = "المواصلات";
+"time"                                    = "زمن";
+"Please turn off waiting time"            = "يرجى إيقاف وقت الانتظار";
+"Please enter valid amount"               = "الرجاء إدخال مبلغ صالح";
+"Waiting Charge"                          = "تهمة الانتظار";
+"Waiting Fare"                            = "أجرة الانتظار";
+"Distance Fare"                           = "أجرة المسافة";
+"Toll Charge"                             = "تهمة حصيلة";
+"MENU"                                    = "قائمة طعام";
+"TRANSPORT"                               = "المواصلات";
+"Please enter Toll Charge"                = "الرجاء إدخال رسوم الاتصال";
+"Please enter valid amount"               = "الرجاء إدخال مبلغ صالح";
+
+
+//Foodie
+"STARTED TOWARDS SHOP"                        = "بدأت نحو متجر";
+"PREPARING FOOD"                              = "تحضير الطعام";
+"REACHED SHOP"                                = "متجر الوصول";
+"ORDER PICKED UP"                             = "النظام اختار";
+"COMPLETE ORDER"                              = "اكمل الطلب";
+"ORDER DELIVERED"                             = "أجل تسليم";
+"COMPLETED"                                   = "منجز";
+"SUBMIT"                                      = "خضع";
+"WAITING FOR THE NEW TASK"                    = "في انتظار المهمة الجديدة";
+"Are you sure you want to dispute this order?"= "هل أنت متأكد من أنك تريد الاعتراض على هذا الطلب؟";
+"Dispute"                                     = "خلاف";
+"Total"                                       = "مجموع";
+"CASH"                                        = "السيولة النقدية";
+"Wallet"                                      = "محفظة نقود";
+"Payment Mode"                                = "طريقة الدفع";
+"Order Delivered Successfully"                = "تم تسليم الطلب بنجاح";
+"Order Cancelled"                             = "تم الغاء الأمر او الطلب";
+"HOME"                                        = "الصفحة الرئيسية";
+"Home"                                        = "الصفحة الرئيسية";
+"Ongoing Request"                             = "طلب مستمر";
+"LIVE TASKS"                                  = "المهام المباشرة";
+"Live Task"                                   = "المهمة المباشرة";
+"Item Total"                                  = "مجموع الاشياء";
+"Item Discount"                               = "خصم البند";
+"Coupon Amount"                               = "مبلغ القسيمة";
+"Service Tax"                                 = "ضريبة الخدمة";
+"Delivery Charge"                             = "رسوم التوصيل";
+"Discount"                                    = "خصم";
+"Wallet Deduction"                            = "محفظة خصم";
+"Terrrible"                                   = "رهيب";
+"Bad"                                         = "سيئة";
+"Okay"                                        = "حسنا";
+"Good"                                        = "حسن";
+"Superb"                                      = "رائع";
+"Feedback"                                    = "ردود الفعل";
+"How was the delivery?"                       = "كيف كان التسليم؟";
+"Give some feedback in words"                 = "إعطاء بعض الملاحظات في الكلمات";
+"Enter the OTP"                               = "أدخل مكتب المدعي العام";
+"Amount to pay"                               = "مبلغ الدفع";
+"Enter the amount paid"                       = "أدخل المبلغ المدفوع";
+"Balance"                                     = "توازن";
+"Paid"                                        = "دفع";
+"** Make sure your payment from customer"     = "** تأكد من الدفع الخاص بك من العملاء";
+"Please enter valid OTP"                      = "يرجى إدخال OTP صالح";
+"Shop Package Charge"                         = "متجر حزمة تهمة";
+"Delivery Charge"                             = "رسوم التوصيل";
+"Shop Discount"                               = "خصم متجر";
+"Give some feedback in words"                 = "قدم بعض الملاحظات في الكلمات";
+"Paid"                                        = "دفع";
+"Please place at DoorStep"                    = "يرجى وضع في DoorStep";
+"PATCH"                                       = "رقعة قماشية";
+
+//xuber
+"START"                     = "بداية";
+"start"                     = "بداية";
+"Take Snap"                 = "خذ سناب";
+"Amount to be paid"         = "المبلغ المستحق للدفع";
+"Enter OTP here"            = "أدخل مكتب المدعي العام هنا";
+"completed"                 = "منجز";
+"Instructions"              = "تعليمات";
+"amount"                    = "كمية";
+"Description"               = "وصف";
+"Additional charges"        = "رسوم إضافية";
+"Before services"           = "قبل الخدمات";
+"After services"            = "بعد الخدمات";
+"Upload the Image"          = "تحميل الصورة";
+"Rate your service with "   = "معدل خدمتك مع ";
+"type"                      = "نوع";
+"SERVICE"                   = "الخدمات";
+"Please enter otp"          = "يرجى إدخال otp";
+"Please upload Before Service Image"    = "يرجى تحميل قبل صورة الخدمة";
+"Please upload After Service Image"     = "يرجى تحميل بعد صورة الخدمة";
+"Do you want to add additional charges?"= "هل ترغب في إضافة رسوم إضافية؟";
+"Please enter valid additional charges amount" = "الرجاء إدخال مبلغ رسوم إضافية صالحة";
+"Additional charge"          = "رسوم اضافية";
+//Home
+
+"Pickup Location"       = "اختر موقعا";
+"Delivery Location"     = "موقع التسليم";
+"Reject"                = "رفض";
+"Accept"                = "قبول";
+"Taxi App"              = "تاكسي التطبيق";
+"Foodie"                = "عشاق الطعام";
+"Service"               = "الخدمات";
+"Serive Type"           = "نوع الخدمة";
+"Schedule Date"         = "تاريخ الجدول الزمني";
+"Go Online"             = "اتصل بالانترنت";
+"Go Offline"            = "الذهاب دون اتصال";
+"Call Admin"            = "مسؤول الاتصال";
+"Admin"                 = "مشرف";
+"Alert"                 = "إنذار";
+"Your wallet is at low balance, \n Please Recharge"  = "محفظتك في رصيد منخفض ، \ n يرجى إعادة الشحن";
+"Please call admin to get clarified" = "يرجى الاتصال بالمسؤول للحصول على توضيح";
+"Recharge Wallet"       = "إعادة شحن المحفظة";
+"Contact Admin"         = "مسؤول الاتصال";
+
+
+
+//Orders
+
+"Orders"                = "أوامر";
+"History"               = "التاريخ";
+"Source"                = "مصدر";
+"Status"                = "الحالة";
+"Destination"           = "المكان المقصود";
+"Payment Via"           = "الدفع عن طريق";
+"Comments For"          = "تعليقات ل";
+"Comments For Order"    = "تعليقات للطلب";
+"Items"                 = "العناصر";
+"Did you lose something ?"  = "هل فقدت شيئا؟";
+"Press the icon to mention the lost item"   = "اضغط على الأيقونة لتذكر العنصر المفقود";
+"Dispute"               = "خلاف";
+"Dispute Status"        = "حالة النزاع";
+"View Receipt"          = "استلام عرض";
+"Call"                  = "مكالمة";
+"Help"                  = "مساعدة";
+"Reset"                 = "إعادة تعيين";
+"Apply"                 = "تطبيق";
+"Filter By"             = "مصنف بواسطة";
+"Trips"                 = "رحلات";
+"Orders"                = "أوامر";
+"Services"              = "خدمات";
+"Please select one type"    = "يرجى اختيار نوع واحد";
+"Others"                = "الآخرين";
+"Lost Item"             = "فقدت البند";
+"Please select one dispute type"    = "يرجى اختيار نوع نزاع واحد";
+"Enter your comment"    = "أدخل تعليقك";
+"You"                   = "أنت";
+"Receipt"               = "إيصال";
+"Base Fare"             = "الاجرة الاساسية";
+"Tax Fare"              = "أجرة الضرائب";
+"Hourly Fare"           = "كل ساعة أجرة";
+"Wallet"                = "محفظة نقود";
+"Discount Applied"      = "الخصم قد تم";
+"Tips"                  = "نصائح";
+"Total"                 = "مجموع";
+"Submit"                = "خضع";
+"No History to show"    = "لا يوجد تاريخ للعرض";
+"Round Off"             = "نهاية الجولة";
+"Waiting Time"          = "وقت الانتظار";
+"Distance Fare"         = "أجرة المسافة";
+"Extra Charges"         = "رسوم اضافية";
+"No Comments"           = "لا تعليقات";
+"Package Charge"        = "شحن الحزمة";
+"Delivery Charge"       = "رسوم التوصيل";
+"Payable Amount"                 = "المبلغ المستحق";
+"Dispute created Successfully"  = "تم إنشاء النزاع بنجاح";
+"Lostitem created Successfully" = "تم إنشاء Lostitem بنجاح";
+"Discount Fare"             = "أجرة الخصم";
+"Weight"                    = "وزن";
+"Card Subtotal"              = "المجموع الفرعي للبطاقة";
+"No Comments"               = "لا تعليق";
+"Toll Charge"               = "تهمة حصيلة";
+"Lost item created Successfully" = "العنصر المفقود تم إنشاؤه بنجاح";
+"/dispute"             = "/خلاف";
+"Item Discount"     = "خصم العنصر";
+
+//Notification
+"Notification"              = "إعلام";
+"Read"                      = "اقرأ";
+"Unread"                    = "غير مقروء";
+"No Notification Found"     = "لم يتم العثور على إعلام";
+
+// common and constants
+
+"OK"                                      = "حسنا";
+"Transaction Id"                          = "معرف المعاملة";
+"Date"                                    = "تاريخ";
+"Email"                                   = "البريد الإلكتروني";
+"Transaction id"                          = "معرف المعاملة";
+"Open Camera"                             = "افتح الكاميرا";
+"Open Gallery"                            = "معرض مفتوح";
+"Arrived"                                 = "وصل";
+"Add"                                     = "إضافة";
+"Change"                                  = "يتغيرون";
+"Confirm"                                 = "تؤكد";
+"Waiting for payment"                     = "في انتظار الدفع";
+"Rate your customer"                      = "معدل عميلك";
+"Rating"                                  = "تقييم";
+"Write Comments"                          = "اكتب التعليقات";
+"message"                                 = "رسالة";
+"statusCode"                              = "رمز الحالة";
+"Yes"                                     = "نعم فعلا";
+"Done"                                    = "فعله";
+"No"                                      = "لا";
+"Cash"                                    = "السيولة النقدية";
+"Card"                                    = "بطاقة";
+"Enter Amount"                            = "أدخل المبلغ";
+"Email"                                   = "البريد الإلكتروني";
+"Wallet "                                 = "محفظة نقود ";
+"Saved Cards"                             = "البطاقات المحفوظة";
+"Add Cards"                               = "إضافة بطاقات";
+"Add amount"                              = "إضافة المبلغ";
+"English"                                 = "English";
+"Arabic"                                  = "عربى";
+"Write Something"                         = "أكتب شيئا";
+"Choose Reason"                           = "اختيار السبب";
+"Others"                          = "الآخرين";
+
+"Add Services"          = "إضافة الخدمات";
+"Add Documents"         = "أضف مستندات";
+"Add Bank Detail"       = "إضافة تفاصيل البنك";
+"Please Complete below steps"   = "يرجى استكمال الخطوات أدناه";
+"Please wait for Admin Approval"    = "يرجى الانتظار للحصول على موافقة المسؤول";
+
+"Email Id (optional)"   = "معرف البريد الإلكتروني (اختياري)";
+"Incoming Request"      = "طلب وارد";
+"Location"              = "موقعك";
+"Service Type"          = "نوع الخدمة";
+"Unable to open camera, Check your camera permission" = "غير قادر على فتح الكاميرا ، تحقق من إذن الكاميرا
+";
+"Service Location" = "موقع الخدمة";
+
+
+"Detecting low power mode,Please plugin your phone"       = "الكشف عن وضع الطاقة المنخفضة ، يرجى البرنامج المساعد هاتفك";
+"Detecting low battery mode,Please plugin your phone"     = "الكشف عن وضع البطارية منخفضة ، يرجى البرنامج المساعد هاتفك";
+"Do you have any Toll charges"                            = "هل لديك أي رسوم رسوم";
+"Your network Connection Lost"                            = "اتصال الشبكة المفقودة";
+"Please Check your internet connection."                  = "الرجاء التحقق من اتصال الانترنت الخاص بك.";
+"Mobile network not available"                            = "شبكة المحمول غير متوفرة";
+"Leave your Comments"                                     = "اترك تعليقك";
+"Stop"                                                    = "توقف";
+"Your Referral Code"                                      = "رمز الإحالة الخاص بك";
+"Referral Count"                                          = "عدد الإحالات";
+"Referral Amount"                                         = "عدد الإحالات";

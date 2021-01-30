@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionTableViewCell" id="SkT-fh-b89" customClass="TransactionTableViewCell" customModule="GoJekProvider" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SkT-fh-b89" id="wuI-e9-Kpt">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLR-Jh-EcQ">
+                        <rect key="frame" x="16" y="22" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPb-XL-i8J">
+                        <rect key="frame" x="187.5" y="22" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXk-cS-SC7">
+                        <rect key="frame" x="359" y="22" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uXk-cS-SC7" firstAttribute="trailing" secondItem="wuI-e9-Kpt" secondAttribute="trailingMargin" id="PwY-lN-wSZ"/>
+                    <constraint firstItem="OLR-Jh-EcQ" firstAttribute="leading" secondItem="wuI-e9-Kpt" secondAttribute="leadingMargin" id="UmB-rV-d8J"/>
+                    <constraint firstItem="hPb-XL-i8J" firstAttribute="centerY" secondItem="wuI-e9-Kpt" secondAttribute="centerY" id="ZFN-EG-ti9"/>
+                    <constraint firstItem="OLR-Jh-EcQ" firstAttribute="centerY" secondItem="wuI-e9-Kpt" secondAttribute="centerY" id="ZsM-vh-Jfg"/>
+                    <constraint firstItem="uXk-cS-SC7" firstAttribute="centerY" secondItem="wuI-e9-Kpt" secondAttribute="centerY" id="gyg-Yn-puu"/>
+                    <constraint firstItem="hPb-XL-i8J" firstAttribute="centerX" secondItem="wuI-e9-Kpt" secondAttribute="centerX" id="ooU-2T-Ytd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amountLabel" destination="hPb-XL-i8J" id="v1e-Lf-OP6"/>
+                <outlet property="statusLabel" destination="uXk-cS-SC7" id="FX2-zx-LZa"/>
+                <outlet property="transactionIdLabel" destination="OLR-Jh-EcQ" id="Bzb-4c-G6z"/>
+            </connections>
+            <point key="canvasLocation" x="142" y="132"/>
+        </tableViewCell>
+    </objects>
+</document>

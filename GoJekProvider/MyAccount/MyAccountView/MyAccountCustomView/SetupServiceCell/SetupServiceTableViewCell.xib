@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SetupServiceTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="SetupServiceTableViewCell" customModule="GoJekProvider" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cof-wX-USd">
+                        <rect key="frame" x="10" y="6" width="300" height="49.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_square_empty" translatesAutoresizingMaskIntoConstraints="NO" id="Kji-2c-9Na">
+                                <rect key="frame" x="15" y="15" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="rLI-1L-zvA"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="nad-O6-xAH">
+                                <rect key="frame" x="50" y="-27.5" width="206.5" height="104.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="958-aJ-oh2">
+                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="50.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZN1-Ps-5fK">
+                                        <rect key="frame" x="0.0" y="54.5" width="206.5" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5k-Zm-HhJ">
+                                <rect key="frame" x="266.5" y="15" width="19.5" height="19.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="y5k-Zm-HhJ" secondAttribute="height" multiplier="1:1" id="bA3-V7-oEO"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nad-O6-xAH" firstAttribute="leading" secondItem="Kji-2c-9Na" secondAttribute="trailing" constant="15" id="1j7-kc-6kg"/>
+                            <constraint firstItem="y5k-Zm-HhJ" firstAttribute="centerY" secondItem="Cof-wX-USd" secondAttribute="centerY" id="8Ht-Ba-A6p"/>
+                            <constraint firstItem="y5k-Zm-HhJ" firstAttribute="height" secondItem="Cof-wX-USd" secondAttribute="height" multiplier="0.4" id="EeB-pX-5OS"/>
+                            <constraint firstItem="nad-O6-xAH" firstAttribute="centerY" secondItem="Kji-2c-9Na" secondAttribute="centerY" id="KQJ-69-k9L"/>
+                            <constraint firstItem="Kji-2c-9Na" firstAttribute="centerY" secondItem="Cof-wX-USd" secondAttribute="centerY" id="UdF-Cw-dlV"/>
+                            <constraint firstAttribute="trailing" secondItem="y5k-Zm-HhJ" secondAttribute="trailing" constant="14" id="cmk-HS-wG4"/>
+                            <constraint firstItem="y5k-Zm-HhJ" firstAttribute="leading" secondItem="nad-O6-xAH" secondAttribute="trailing" constant="10" id="dF5-2T-kCP"/>
+                            <constraint firstItem="Kji-2c-9Na" firstAttribute="leading" secondItem="Cof-wX-USd" secondAttribute="leading" constant="15" id="gMf-0q-aS3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cof-wX-USd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XRR-8n-hLg"/>
+                    <constraint firstAttribute="trailing" secondItem="Cof-wX-USd" secondAttribute="trailing" constant="10" id="ZZh-J0-6y6"/>
+                    <constraint firstItem="Cof-wX-USd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="pg4-rH-jgW"/>
+                    <constraint firstItem="Cof-wX-USd" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.8" id="wzn-dE-mqJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkImageView" destination="Kji-2c-9Na" id="gn6-S0-zUD"/>
+                <outlet property="editButton" destination="y5k-Zm-HhJ" id="tSq-Is-WsR"/>
+                <outlet property="overView" destination="Cof-wX-USd" id="3xE-bQ-sDz"/>
+                <outlet property="priceLabel" destination="ZN1-Ps-5fK" id="c64-q4-eEv"/>
+                <outlet property="serviceNameLabel" destination="958-aJ-oh2" id="cg9-Fx-zrM"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_square_empty" width="20" height="20"/>
+    </resources>
+</document>

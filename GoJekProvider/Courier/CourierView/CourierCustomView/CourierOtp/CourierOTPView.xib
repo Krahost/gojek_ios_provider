@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ili-4A-x7i" customClass="CourierOTPView" customModule="Opus_X_Vendor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nbf-aD-dgW">
+                    <rect key="frame" x="16" y="264" width="382" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbf-NF-jAc">
+                            <rect key="frame" x="170.33333333333334" y="15.999999999999998" width="41.666666666666657" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBg-BN-Nvh">
+                            <rect key="frame" x="91" y="52.333333333333314" width="200" height="34"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="unv-01-ZIb">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="34"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tjf-fT-VdK">
+                                            <rect key="frame" x="0.0" y="0.0" width="38.666666666666664" height="34"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="ili-4A-x7i" id="257-dX-gw6"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rva-zF-3w1">
+                                            <rect key="frame" x="53.666666666666657" y="0.0" width="39" height="34"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="ili-4A-x7i" id="Shf-ku-C1d"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ec-vG-Up8">
+                                            <rect key="frame" x="107.66666666666666" y="0.0" width="38.666666666666657" height="34"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="ili-4A-x7i" id="WXI-eG-QW5"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E98-yK-4ET">
+                                            <rect key="frame" x="161.33333333333331" y="0.0" width="38.666666666666657" height="34"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="ili-4A-x7i" id="Nrn-Ar-ds5"/>
+                                            </connections>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="unv-01-ZIb" firstAttribute="width" secondItem="LBg-BN-Nvh" secondAttribute="width" id="6r2-05-OaX"/>
+                                <constraint firstAttribute="width" constant="200" id="8yj-lt-kcT"/>
+                                <constraint firstItem="unv-01-ZIb" firstAttribute="height" secondItem="LBg-BN-Nvh" secondAttribute="height" id="Yad-zu-jYn"/>
+                                <constraint firstAttribute="height" constant="34" id="ePC-iO-fxI"/>
+                                <constraint firstItem="unv-01-ZIb" firstAttribute="centerX" secondItem="LBg-BN-Nvh" secondAttribute="centerX" id="fHJ-4h-aBf"/>
+                                <constraint firstItem="unv-01-ZIb" firstAttribute="centerY" secondItem="LBg-BN-Nvh" secondAttribute="centerY" id="qeh-js-Wt5"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rqO-x6-NGj">
+                            <rect key="frame" x="38.333333333333343" y="96.333333333333314" width="305.33333333333326" height="101.66666666666669"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FEm-aX-hBW">
+                                    <rect key="frame" x="0.0" y="0.0" width="305.33333333333331" height="46"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kwa-GB-vLa">
+                                            <rect key="frame" x="0.0" y="0.0" width="147.66666666666666" height="46"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKz-UP-zCG">
+                                            <rect key="frame" x="157.66666666666669" y="0.0" width="147.66666666666669" height="46"/>
+                                            <state key="normal" title="Button"/>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JE8-wf-kYb">
+                                    <rect key="frame" x="0.0" y="56" width="305.33333333333331" height="45.666666666666657"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="JE8-wf-kYb" firstAttribute="height" secondItem="rqO-x6-NGj" secondAttribute="width" multiplier="0.15" id="0Ax-oq-JDd"/>
+                                <constraint firstItem="FEm-aX-hBW" firstAttribute="height" secondItem="JE8-wf-kYb" secondAttribute="height" id="DON-ZO-lNR"/>
+                                <constraint firstItem="Kwa-GB-vLa" firstAttribute="height" secondItem="JE8-wf-kYb" secondAttribute="height" id="LMW-ye-g2r"/>
+                                <constraint firstItem="JKz-UP-zCG" firstAttribute="height" secondItem="JE8-wf-kYb" secondAttribute="height" id="qoc-YP-CTP"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="DON-ZO-lNR"/>
+                                </mask>
+                            </variation>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="rqO-x6-NGj" firstAttribute="centerX" secondItem="Nbf-aD-dgW" secondAttribute="centerX" id="0JI-Ab-RJr"/>
+                        <constraint firstItem="vbf-NF-jAc" firstAttribute="centerX" secondItem="Nbf-aD-dgW" secondAttribute="centerX" id="0W3-l8-StP"/>
+                        <constraint firstItem="vbf-NF-jAc" firstAttribute="top" secondItem="Nbf-aD-dgW" secondAttribute="top" constant="16" id="4Bp-j6-SbT"/>
+                        <constraint firstItem="rqO-x6-NGj" firstAttribute="top" secondItem="LBg-BN-Nvh" secondAttribute="bottom" constant="10" id="IiY-30-IeO"/>
+                        <constraint firstAttribute="height" constant="250" id="YdI-SY-UgI"/>
+                        <constraint firstItem="LBg-BN-Nvh" firstAttribute="centerX" secondItem="Nbf-aD-dgW" secondAttribute="centerX" id="aQG-J1-z40"/>
+                        <constraint firstAttribute="bottom" secondItem="rqO-x6-NGj" secondAttribute="bottom" constant="52" id="nMg-ar-yYS"/>
+                        <constraint firstItem="LBg-BN-Nvh" firstAttribute="top" secondItem="vbf-NF-jAc" secondAttribute="bottom" constant="16" id="rCg-qs-aNx"/>
+                        <constraint firstItem="rqO-x6-NGj" firstAttribute="width" secondItem="Nbf-aD-dgW" secondAttribute="width" multiplier="0.8" id="wSP-8B-VKS"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="YdI-SY-UgI"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Nbf-aD-dgW" firstAttribute="height" secondItem="ili-4A-x7i" secondAttribute="width" multiplier="0.6" id="5e8-SM-8CQ"/>
+                <constraint firstItem="Nbf-aD-dgW" firstAttribute="leading" secondItem="4pt-Wf-J0x" secondAttribute="leading" constant="16" id="73z-fC-c6h"/>
+                <constraint firstItem="Nbf-aD-dgW" firstAttribute="centerY" secondItem="ili-4A-x7i" secondAttribute="centerY" constant="21" id="Fip-93-OAR"/>
+                <constraint firstItem="4pt-Wf-J0x" firstAttribute="trailing" secondItem="Nbf-aD-dgW" secondAttribute="trailing" constant="16" id="Q6M-2M-Y0O"/>
+                <constraint firstItem="Nbf-aD-dgW" firstAttribute="centerX" secondItem="ili-4A-x7i" secondAttribute="centerX" id="yR4-Qp-Bl4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="4pt-Wf-J0x"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="5e8-SM-8CQ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="callButton" destination="JKz-UP-zCG" id="HGE-17-4DB"/>
+                <outlet property="chatButton" destination="Kwa-GB-vLa" id="1O2-Xa-OEt"/>
+                <outlet property="otpBackgroundView" destination="Nbf-aD-dgW" id="fj5-eP-vpQ"/>
+                <outlet property="startTripButton" destination="JE8-wf-kYb" id="Sy6-By-aNJ"/>
+                <outlet property="textFieldFour" destination="E98-yK-4ET" id="ItK-10-xLg"/>
+                <outlet property="textFieldOne" destination="Tjf-fT-VdK" id="boN-ep-sjs"/>
+                <outlet property="textFieldThree" destination="3Ec-vG-Up8" id="RMx-oh-JWL"/>
+                <outlet property="textFieldTwo" destination="Rva-zF-3w1" id="6zN-bH-Myp"/>
+                <outlet property="titleLabel" destination="vbf-NF-jAc" id="KBi-es-IMo"/>
+            </connections>
+            <point key="canvasLocation" x="93.599999999999994" y="136.28185907046478"/>
+        </view>
+    </objects>
+</document>

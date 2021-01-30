@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CallAdminAlertView" id="iN0-l3-epB" customClass="CallAdminAlertView" customModule="GoJekProvider" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WJM-Op-pIP">
+                    <rect key="frame" x="26" y="223.5" width="323" height="220"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDb-Iu-CQ6">
+                            <rect key="frame" x="35" y="8" width="254" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Xgk-CG-sx9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qaz-7j-f3O">
+                            <rect key="frame" x="23" y="82" width="277" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iG4-6I-B6m">
+                            <rect key="frame" x="16" y="165" width="291" height="39"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="iG4-6I-B6m" firstAttribute="width" secondItem="WJM-Op-pIP" secondAttribute="width" multiplier="0.9" id="3Wd-fP-tw6"/>
+                        <constraint firstAttribute="height" constant="220" id="6cQ-hh-nq5"/>
+                        <constraint firstAttribute="bottom" secondItem="iG4-6I-B6m" secondAttribute="bottom" constant="16" id="9fE-8Q-eTk"/>
+                        <constraint firstItem="Qaz-7j-f3O" firstAttribute="leading" secondItem="WJM-Op-pIP" secondAttribute="leading" constant="23" id="CaY-K0-kBE"/>
+                        <constraint firstItem="cDb-Iu-CQ6" firstAttribute="leading" secondItem="WJM-Op-pIP" secondAttribute="leading" constant="35" id="KLm-v6-3Tt"/>
+                        <constraint firstItem="iG4-6I-B6m" firstAttribute="centerX" secondItem="WJM-Op-pIP" secondAttribute="centerX" id="NWd-Jr-8bp"/>
+                        <constraint firstAttribute="trailing" secondItem="cDb-Iu-CQ6" secondAttribute="trailing" constant="34" id="QHr-y3-tSw"/>
+                        <constraint firstItem="Qaz-7j-f3O" firstAttribute="top" secondItem="cDb-Iu-CQ6" secondAttribute="bottom" constant="24" id="Qsm-AU-Str"/>
+                        <constraint firstItem="cDb-Iu-CQ6" firstAttribute="top" secondItem="WJM-Op-pIP" secondAttribute="top" constant="8" id="WK6-QG-Ih4"/>
+                        <constraint firstAttribute="trailing" secondItem="Qaz-7j-f3O" secondAttribute="trailing" constant="23" id="eQx-Az-ac6"/>
+                        <constraint firstItem="iG4-6I-B6m" firstAttribute="height" secondItem="WJM-Op-pIP" secondAttribute="width" multiplier="0.12" id="rwg-Jj-ewg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="WJM-Op-pIP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9PZ-Q9-O9v"/>
+                <constraint firstItem="WJM-Op-pIP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="GrN-qA-xyA"/>
+                <constraint firstItem="WJM-Op-pIP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="26" id="acU-E3-3rQ"/>
+                <constraint firstItem="WJM-Op-pIP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="i1q-0u-fHU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="alertDescriptionLabel" destination="Qaz-7j-f3O" id="dqK-KD-Zc2"/>
+                <outlet property="alertTitleLabel" destination="cDb-Iu-CQ6" id="O5t-U3-qnh"/>
+                <outlet property="callAdminButton" destination="iG4-6I-B6m" id="daV-EJ-MnL"/>
+                <outlet property="callAdminView" destination="WJM-Op-pIP" id="kat-J7-jgz"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,512 @@
+/*
+ Localizable.strings
+ GoJekProvider
+ 
+ Created by CSS on 12/04/19.
+ Copyright © 2019 Appoets. All rights reserved.
+ */
+
+
+//Login Constant
+
+"Service Selection" = "Service Selection";
+"Service Ongoing" = "Service Ongoing";
+"Rate Service" = "Rate Service";
+"Sign In" = "Sign In";
+"Sign Up" = "Sign Up";
+"Social Login" =  "Social Login";
+"Connect via Google" = "Connect via Google";
+"Connect via Facebook" = "Connect via Facebook";
+"Login Via" = "Login Via";
+"Forgot Password Via" = "Forgot Password Via";
+"Forgot Password?" = "Forgot Password?";
+"or" = "or";
+"Dont't have an account" = "Dont't have an account";
+"Create Account" = "Create Account";
+"Already have an account" = "Already have an account";
+"I accept the following Terms and conditions" = "I accept the following Terms and conditions";
+"Cannot make call at this moment" = "Cannot make call at this moment";
+"Could not open Email at the moment." = "Could not open Email at the moment.";
+"Choose Country Code" = "Choose Country Code";
+"Forgot Password" = "Forgot Password";
+"Choose Country" = "Choose Country";
+"Choose State" = "Choose State";
+"Choose City" = "Choose City";
+"Gender" = "Gender";
+"Male" = "Male";
+"Female" = "Female";
+"User Name" = "User Name";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Code" = "Code";
+"Phone Number" = "Phone Number";
+"Email Id" = "Email Id";
+"Password" = "Password";
+"Country" = "Country";
+"City" = "City";
+"State" = "State";
+"Expiry Date" = "Expiry Date";
+"Old Password" = "Old Password";
+"New Password" = "New Password";
+"Otp" = "Otp";
+"picture" = "picture";
+"Referral(Optional)" = "Referral(Optional)";
+"Terms and Conditions" = "Terms and Conditions";
+"Please place at DoorStep" = "Please place at DoorStep";
+"No Country Found" = "No Country Found";
+"No City Found" = "No City Found";
+"No Country Code Found" = "No Country Code Found";
+"Service Request" =  "Service Request";
+"Provide expert services anytime and anywhere as per your convenience." =  "Provide expert services anytime and anywhere as per your convenience.";
+"Help make the world better with your amazing services." = "Help make the world better with your amazing services." ;
+"Service seekers are always happy to see you assist them." = "Service seekers are always happy to see you assist them.";
+"(optional)" = "(optional)";
+"Service Location" = "Service Location";
+// Alert message
+"Please enter your Email Id"            = "Please enter your Email Id";
+"Please enter valid Email Id"           = "Please enter valid Email Id";
+"Please enter your Password"            = "Please enter your Password";
+"Please enter your Old Password"        = "Please enter your Old Password";
+"Please enter your New Password"        = "Please enter your New Password";
+"Please enter your New Password"        = "Please enter your New Password";
+"Please enter your Phone Number"        = "Please enter your Phone Number";
+"Please enter Valid Phone Number"       = "Please enter Valid Phone Number";
+"Please select your city"               = "Please select your city";
+"Please select your Country"            = "Please select your Country";
+"Please select your Country Code"       = "Please select your Country Code";
+"Please enter your User Name"           = "Please enter your User Name";
+"Password Must have Atleast 6 Characters."  = "Password Must have Atleast 6 Characters.";
+"Please enter Firstname"                = "Please enter Firstname";
+"Please enter Lastname"                 = "Please enter Lastname";
+"Please select your state"              = "Please select your state";
+"Please accept terms and conditions"    = "Please accept terms and conditions";
+"Old password and new password not be same" = "Old password and new password not be same";
+"New password and confirm password should be same"  = "New password and confirm password should be same";
+"Your password has been changed. Please login with new password"    = "Your password has been changed. Please login with new password";
+"Enter the OTP received on the registered mobile number" = "Enter the OTP received on the registered mobile number";
+"Enter valid OTP" = "Enter valid OTP";
+
+"Otp Verification" = "Otp Verification";
+"VERIFY" = "VERIFY";
+"(optional)" = "(optional)";
+
+//Taxi
+"Chat"                                = "Chat";
+"Start Trip"                          = "Start Trip";
+"Picked up"                           = "Picked up";
+"Tap When Dropped"                    = "Tap When Dropped";
+"Confirm Payment"                     = "Confirm Payment";
+"Invoice"                             = "Invoice";
+"Source and Destination"              = "Source and Destination";
+"Booking ID"                          = "Booking ID";
+"Distance Travelled"                  = "Distance Travelled";
+"Waiting Charge"                      = "Waiting Charge";
+"Time Taken"                          = "Time Taken";
+"Distance Fare"                       = "Distance Fare";
+"Tax"                                 = "Tax";
+"Tips"                                = "Tips";
+"Total"                               = "Total";
+"Payment Via"                         = "Payment Via";
+"Base Fare"                           = "Base Fare";
+"Pickup Location"                     = "Pickup Location";
+"Drop Location"                       = "Drop Location";
+"Enter valid OTP"                     = "Enter valid OTP";
+"Wating Time"                         = "Wating Time";
+"Toll Charge"                         = "Toll Charge";
+"ADD"                                 = "ADD";
+"Submit"                              = "Submit";
+"SOS"                                 = "SOS";
+"MENU"                                = "MENU";
+"TIME"                                = "TIME";
+"TRANSPORT"                           = "TRANSPORT";
+"time"                                = "time";
+"Please turn off waiting time"        = "Please turn off waiting time";
+"Please enter valid amount"           = "Please enter valid amount";
+"Waiting Fare"                        =  "Waiting Fare" ;
+"Toll Charge"                         = "Toll Charge";
+"MENU"                               = "MENU";
+"Please enter Toll Charge"            = "Please enter Toll Charge";
+
+
+
+
+//MyAccount Constant
+
+"Your Referral Code" = "Your Referral Code";
+"Referral Count" = "Referral Count";
+"Referral Amount" = "Referral Amount";
+"My Account" = "My Account";
+"Profile" = "Profile";
+"Manage Address" = "Manage Address";
+"Payment" = "Payment";
+"Transaction" = "Transaction";
+"Invite Referrals" = "Invite Referrals";
+"Privacy Policy" = "Privacy Policy";
+"Manage Services" = "Manage Services";
+"Manage Documents" = "Manage Documents";
+"Language" = "Language";
+"Support" = "Support";
+"Call" = "Call";
+"Mail" = "Mail";
+"Website" = "Website";
+"Contact Our Team Via" = "Contact Our Team Via";
+"You can contact our team \n\n anytime for your queries." = "You can contact our team \n\n anytime for your queries.";
+"Change Password ?" = "Change Password ?";
+"$100" = "$100";
+"$500" = "$500";
+"$1000" = "$1000";
+"Create new password" = "Create new password";
+"Reset Password" = "Reset Password";
+"OTP Verification" = "OTP Verification";
+"Invalid OTP" = "Invalid OTP";
+"Enter OTP" = "Enter OTP";
+"Are you sure want to logout?" = "Are you sure want to logout?";
+"Logout" = "Logout";
+"Upload" = "Upload";
+"Select Language" = "Select Language";
+"Save" = "Save";
+"Language" = "Language";
+"+" = "+";
+"Hey, I am using  \(APPConstant.appName) and invite you to join! Use my Referral code: " = "Hey, I am using  \(APPConstant.appName) and invite you to join! Use my Referral code: ";
+"Have a good day!" = "Have a good day!";
+"Invite your friends and earn" = "Invite your friends and earn";
+"for every" = "for every";
+"new users" = "new users";
+"Cancel" = "Cancel";
+"Submit" = "Submit";
+"MANUAL" = "MANUAL";
+"I am ready to drive" = "I am ready to Drive";
+"I am ready to Deliver" = "I am ready to Deliver";
+"I am ready to Serve" = "I am ready to Serve";
+"Setup your Vehicle" = "Setup your Vehicle";
+"Setup your Deliveries" = "Setup your Deliveries";
+"Setup your Services" = "Setup your Services";
+"Car Category" = "Car Category";
+"Vehicle Model" = "Vehicle Model";
+"Vehicle Year" = "Vehicle Year";
+"Vehicle Color" = "Vehicle Color";
+"Vehicle License Plate" = "Vehicle License Plate";
+"Vehicle Make" = "Vehicle Make";
+"Document Upload" = "Document Upload";
+"RC Book" = "RC Book";
+"Insurance" = "Insurance";
+"Vehicle Name" = "Vehicle Name";
+"Add Vehicle" = "Add Vehicle";
+"Rate:" = "Rate:";
+"Upload Front Page" = "Upload Front Page";
+"Upload Back Page" = "Upload Back Page";
+"Common Documents" = "Common Documents";
+"Transport Documents" = "Transport Documents";
+"Delivery Documents" = "Delivery Documents";
+"Services Documents" = "Services Documents";
+"Select Expiry Date" = "Select Expiry Date";
+"Please Upload Front Image" = "Please Upload Front Image";
+"Please Upload Back Image" = "Please Upload Back Image";
+"No Service available" = "No Service available";
+"Please Add base fare" = "Please Add base fare";
+"Language updated successfully" = "Language updated successfully";
+"Bank details" = "Bank details";
+"Earnings" = "Earnings";
+"No Bank details" = "No Bank details";
+"Next" = "Next";
+"Show my vehicles" = "Show my vehicles";
+"Show my Deliveries" = "Show my Deliveries";
+"Show my Services" = "Show my Services";
+
+"Expiry"            = "Expiry";
+"Pdf Viewer" =  "Pdf Viewer";
+"Please select Expiry Date" = "Please select Expiry Date";
+
+
+"Add Vehicle Successfully"      = "Add Vehicle Successfully";
+"Edit Vehicle Successfully"     = "Edit Vehicle Successfully";
+"No Service"                    = "No Service";
+"Today"                         = "Today";
+"This week"                     = "This week";
+"This month"                    = "This month";
+"Please Upload Front Pdf"       = "Please Upload Front Pdf";
+"Please Upload Back Pdf"        = "Please Upload Back Pdf";
+"view"                          = "view";
+" (Front)"                      = " (Front)";
+" (Back)"                       = " (Back)";
+"Today's Completed Target"      = "Today's Completed Target";
+"This week Target"              = "This week Target";
+"This month Target"             = "This month Target";
+"Please Enter the Vehicle Name" = "Please Enter the Vehicle Name";
+"Please Enter the Vehicle License Plate"    = "Please Enter the Vehicle License Plate";
+"Please Enter the Car Category"     = "Please Enter the Car Category";
+"Please Enter the Vehicle Model"    = "Please Enter the Vehicle Model";
+"Please Enter the Vehicle Year"     = "Please Enter the Vehicle Year";
+"Please Enter the Vehicle Color"    = "Please Enter the Vehicle Color";
+"Please Enter the Vehicle Make"     = "Please Enter the Vehicle Make";
+"Are you sure want to delete card?" = "Are you sure want to delete card?";
+"I am ready to Courier"             = "I am ready to Courier";
+"Please select valid Expiry Date"   = "Please select valid Expiry Date";
+"Wheel Chair"                       = "Wheel Chair";
+"Child Seat"                        = "Child Seat";
+"No Document available"             = "No Document available";
+"No Service Found"                  = "No Service Found";
+"My QRCode"                         = "My QRCode";
+"Scan for send or receive amount"   = "Scan for send or receive amount";
+"Send Amount"                       = "Send Amount";
+"Receive Amount"                    = "Receive Amount";
+"COMMON"                            = "COMMON";
+
+//Payment
+"Saved Card"            = "Saved Card";
+"Card for receiving the customer payment"   = "Card for receiving the customer payment";
+"Wallet"                = "Wallet";
+"Enter Amount"          = "Enter Amount";
+"Add Amount"            = "Add Amount";
+"Old Password"          = "Old Password";
+"New Password"          = "New Password";
+"Confirm Password"      = "Confirm Password";
+"Add Card Payments"    =  "Add Card Payments";
+"Change Password" = "Change Password";
+"Choose Payment"             = "Choose Payment";
+"Available Payments"         = "Available Payments";
+
+//Message
+"Updated Successfully"          = "Updated Successfully";
+"please upload Vehicle Image"   = "please upload Vehicle Image";
+"please upload RC Book Image"   = "please upload RC Book Image";
+"please upload Insurance Image" = "please upload Insurance Image";
+"Please add card "              = "Please add card ";
+"Please select card"            = "Please select card";
+"Please add valid amount"       = "Please add valid amount";
+"Please enter card number"      = "Please enter card number";
+"Please enter month"            = "Please enter month";
+"Please enter cvv number"       = "Please enter cvv number";
+"Please enter year"             = "Please enter year";
+"No Transaction"                = "No Transaction";
+"Bank Details Updated sucessfully"  = "Bank Details Updated sucessfully";
+"Amount Added Successfully"         = "Amount Added Successfully";
+
+
+
+//Foodie
+"STARTED TOWARDS SHOP"  = "STARTED TOWARDS SHOP";
+"PREPARING FOOD"        = "PREPARING FOOD";
+"REACHED SHOP"          = "REACHED SHOP";
+"ORDER PICKED UP"       = "ORDER PICKED UP";
+"COMPLETE ORDER"        = "COMPLETE ORDER";
+"ORDER DELIVERED"       = "ORDER DELIVERED";
+"COMPLETED"             = "COMPLETED";
+"SUBMIT"                = "SUBMIT";
+"WAITING FOR THE NEW TASK"  = "WAITING FOR THE NEW TASK";
+"Are you sure you want to dispute this order?"  = "Are you sure you want to dispute this order?";
+"Dispute"               = "Dispute";
+"Total"                 = "Total";
+"CASH"                  = "CASH";
+"Wallet"                = "Wallet";
+"Payment Mode"          = "Payment Mode";
+"Order Delivered Successfully"  = "Order Delivered Successfully";
+"Order Cancelled"       = "Order Cancelled";
+"HOME"                  = "HOME";
+"Home"                  = "Home" ;
+"Ongoing Request"       = "Ongoing Request";
+"LIVE TASKS"            = "LIVE TASKS";
+"Live Task"             = "Live Task";
+"Item Total"            = "Item Total";
+"Item Discount"         = "Item Discount";
+"Coupon Amount"         = "Coupon Amount";
+"Service Tax"           = "Service Tax";
+"Delivery Charge"       = "Delivery Charge";
+"Discount"              = "Discount";
+"Wallet Deduction"      = "Wallet Deduction";
+"Terrrible"             = "Terrrible";
+"Bad"                   = "Bad";
+"Okay"                  = "Okay";
+"Good"                  = "Good";
+"Superb"                = "Superb";
+"Feedback"              = "Feedback";
+"How was the delivery?" = "How was the delivery?";
+"Give some feedback in words"   = "Give some feedback in words";
+"Enter the OTP"         = "Enter the OTP";
+"Amount to pay"         = "Amount to pay";
+"Enter the amount paid" = "Enter the amount paid";
+"Balance"               = "Balance";
+"Paid"                  = "Paid";
+"** Make sure your payment from customer"   = "** Make sure your payment from customer";
+"Please enter valid OTP"    = "Please enter valid OTP";
+"Shop Package Charge"       = "Shop Package Charge";
+"Shop Discount"              = "Shop Discount";
+"PATCH"                      = "PATCH";
+//xuber
+
+"START"                     = "START";
+"start"                     = "start";
+"Take Snap"                 = "Take Snap";
+"Amount to be paid"         = "Amount to be paid";
+"Enter OTP here"            = "Enter OTP here";
+"completed"                 = "completed";
+"Additional charge "        = "Additional charge ";
+"Instructions"              = "Instructions";
+"amount"                    = "Amount";
+"Description"               = "Description";
+"Additional charges"        = "Additional charges";
+"Before services"           = "Before services";
+"After services"            = "After services";
+"Upload the Image"          = "Upload the Image";
+"Rate your service with "   = "Rate your service with ";
+"type"                      = "type";
+"SERVICE"                   = "SERVICE";
+"Please enter otp"          = "Please enter otp";
+"Please upload Before Service Image"    = "Please upload Before Service Image";
+"Please upload After Service Image"     = "Please upload After Service Image";
+"Do you want to add additional charges?"= "Do you want to add additional charges?";
+"Please enter valid additional charges amount" = "Please enter valid additional charges amount";
+"Additional charge"         = "Additional charge";
+
+//Home
+
+"Pickup Location"       = "Pickup Location";
+"Delivery Location"     = "Delivery Location";
+"Reject"                = "Reject";
+"Accept"                = "Accept";
+"Taxi App"              = "Taxi App";
+"Foodie"                = "Foodie";
+"Service"               = "Service";
+"Serive Type"           = "Serive Type";
+"Schedule Date"         = "Schedule Date";
+"Go Online"             = "Go Online";
+"Go Offline"            = "Go Offline";
+"Call Admin"            = "Call Admin";
+"Admin"                 = "Admin";
+"Alert"                 = "Alert";
+"Your wallet is at low balance, \n Please Recharge"  = "Your wallet is at low balance, \n Please Recharge";
+"Please call admin to get clarified"  ="Please call admin to get clarified";
+"Recharge Wallet"       = "Recharge Wallet";
+"Contact Admin"         = "Contact Admin";
+
+//Orders
+
+"Orders"                = "Orders";
+"History"               = "History";
+"Source"                = "Source";
+"Status"                = "Status";
+"Destination"           = "Destination";
+"Payment Via"           = "Payment Via";
+"Comments For"          = "Comments For";
+"Comments For Order"    = "Comments For Order";
+"Items"                 = "Items";
+"Did you lose something ?"  = "Did you lose something ?";
+"Press the icon to mention the lost item"   = "Press the icon to mention the lost item";
+"Dispute"               = "Dispute";
+"Dispute Status"        = "Dispute Status";
+"View Receipt"          = "View Receipt";
+"Call"                  = "Call";
+"Help"                  = "Help";
+"Reset"                 = "Reset";
+"Apply"                 = "Apply";
+"Filter By"             = "Filter By";
+"Trips"                 = "Trips";
+"Orders"                = "Orders";
+"Transport"             = "Transport";
+"Services"              = "Services";
+"Please select one type"    = "Please select one type";
+"Others"                = "Others";
+"Lost Item"             = "Lost Item";
+"Please select one dispute type"    = "Please select one dispute type";
+"Enter your comment"    = "Enter your comment";
+"You"                   = "You";
+"Receipt"               = "Receipt";
+"Base Fare"             = "Base Fare";
+"Card Subtotal"         = "Card Subtotal";
+"Tax Fare"              = "Tax Fare";
+"Hourly Fare"           = "Hourly Fare";
+"Wallet"                = "Wallet";
+"Discount Applied"      = "Discount Applied";
+"Tips"                  = "Tips";
+"Total"                 = "Total";
+"Submit"                = "Submit";
+"No History to show"    = "No History to show";
+"Round Off"             = "Round Off";
+"Waiting Time"          = "Waiting Time";
+"Distance Fare"         = "Distance Fare";
+"Extra Charges"         = "Extra Charges";
+"No Comments"           = "No Comments";
+"Package Charge"        = "Package Charge";
+"Delivery Charge"       = "Delivery Charge";
+"Payable Amount"        = "Payable Amount";
+"Card Subtotal"         = "Card Subtotal";
+"Dispute created Successfully"  = "Dispute created Successfully";
+"Lostitem created Successfully" = "Lostitem created Successfully";
+"Discount Fare"              = "Discount Fare";
+"Weight"                     = "Weight";
+"No Comments"                =  "No Comments";
+"Lost item created Successfully" = "Lost item created Successfully";
+"/dispute"                 = "/dispute";
+
+//Notification
+"Notification"              = "Notification";
+"Read"                      = "Read";
+"Unread"                    = "Unread";
+"No Notification Found"     = "No Notification Found";
+
+
+
+// common and constants
+
+"OK"            = "OK";
+"Transaction Id"    = "Transaction Id";
+"Date"              = "Date";
+"Email"             = "Email";
+"Transaction id"    = "Transaction id";
+
+"Open Camera"       = "Open Camera";
+"Open Gallery"       = "Open Gallery";
+"Arrived"           = "Arrived";
+"Add"               = "Add";
+"Change"            = "Change";
+"Confirm"           = "Confirm";
+"Waiting for payment"   = "Waiting for payment";
+"Rate your customer"    = "Rate your customer";
+"Rating"                = "Rating";
+"Write Comments"        = "Write Comments";
+"message"               = "message";
+"statusCode"            = "statusCode";
+"Yes"                   = "Yes";
+"Done"                  = "Done";
+"No"                    = "No";
+"Cash"                  = "Cash";
+"Card"                  = "Card";
+"Enter Amount"          = "Enter Amount";
+"Email"                 = "Email";
+"Wallet "               = "Wallet ";
+"Saved Cards"           = "Saved Cards";
+"Add Cards"             = "Add Cards";
+"Add amount"            = "Add amount";
+"English"               = "English";
+"Arabic"                = "Arabic";
+"Write Something"       = "Write Something";
+"Choose Reason"         = "Choose Reason";
+"Others"                = "Others";
+
+"Add Services"          = "Add Services";
+"Add Documents"         = "Add Documents";
+"Add Bank Detail"       = "Add Bank Detail";
+"Please Complete below steps"   = "Please Complete below steps";
+"Please wait for Admin Approval"    = "Please wait for Admin Approval";
+
+"Email Id (optional)"   = "Email Id (optional)";
+"Incoming Request"      = "Incoming Request";
+"Location"              = "Location";
+"Service Type"          = "Service Type";
+"Unable to open camera, Check your camera permission" = "Unable to open camera, Check your camera permission";
+
+
+
+
+"Detecting low power mode,Please plugin your phone" = "Detecting low power mode,Please plugin your phone";
+"Detecting low battery mode,Please plugin your phone"   = "Detecting low battery mode,Please plugin your phone";
+"Do you have any Toll charges"       = "Do you have any Toll charges";
+"Your network Connection Lost"       = "Your network Connection Lost";
+"Please Check your internet connection."    = "Please Check your internet connection.";
+"Mobile network not available"          = "Mobile network not available";
+"Leave your Comments"             = "Leave your Comments";
+"Stop"                             = "Stop";
+"Your Referral Code" = "Your Referral Code";
+"Referral Count" = "Referral Count";
+"Referral Amount" = "Referral Amount";
+"Transport"  = "Transport";

@@ -1,0 +1,110 @@
+//
+//  BackGroundRequestManager.swift
+//  GoJekProvider
+//
+//  Created by Rajes on 02/05/19.
+//  Copyright © 2019 Appoets. All rights reserved.
+//
+
+import Foundation
+
+enum BackGroundRequestType {
+    case CommonRequest
+    case ModuleWise
+}
+
+class BackGroundRequestManager {
+    
+    static var share = BackGroundRequestManager()
+    
+    private weak var timer:Timer!
+    
+    var requestCallback: (() -> ())? = nil
+    
+    func startBackGroundRequest(type: BackGroundRequestType, roomId: String, listener: RoomListener) {
+        
+        print("startBackGroundRequest")
+<<<<<<< HEAD
+        if (XSocketIOManager.sharedInstance.connectedWithRoom) {
+=======
+        if (XSocketIOManager.sharedInstance.connectedWithRoom ) {
+>>>>>>> ff972de5c76a8dbcee966f33c282fefe59b753f1
+            stopBackGroundRequest()
+            return
+        }
+       let context = ["RequestType": type, "roomID": roomId, "ListenerKey": listener] as [String : Any]
+
+        if self.timer == nil {
+             self.timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(timerFunction), userInfo: context, repeats: true)
+            print("Background thread initiated")
+        }
+         checkSocketConnection(requesType: type,roomID:roomId, moduleKey: listener)
+    }
+    
+    
+    func checkSocketConnection(requesType:BackGroundRequestType,roomID:String,moduleKey:RoomListener) {
+        
+        if XSocketIOManager.sharedInstance.socketIsConnected() {
+          
+<<<<<<< HEAD
+            if (XSocketIOManager.sharedInstance.connectedWithRoom) { stopBackGroundRequest() }
+=======
+            if (XSocketIOManager.sharedInstance.connectedWithRoom ) { stopBackGroundRequest() }
+>>>>>>> ff972de5c76a8dbcee966f33c282fefe59b753f1
+            switch requesType {
+            case .CommonRequest:
+                initiateCommonRoomRequest(roomID: roomID, listener: moduleKey)
+            case .ModuleWise:
+                initiatePrivateRoomtRequest(roomID: roomID, listener: moduleKey)
+            }
+        } else {
+            
+            DispatchQueue.main.async {
+                 XSocketIOManager.sharedInstance.establishSocketConnection()
+                 self.checkSocketConnection(requesType: requesType, roomID: roomID,moduleKey: moduleKey)
+            }
+           
+        }
+    }
+    
+    func initiateCommonRoomRequest(roomID: String,listener:RoomListener) {
+        XSocketIOManager.sharedInstance.checkSocketRequest(inputValue: (Constant.key.CommonRoomKey,roomID,listener)) {
+            self.requestCallback?()
+        }
+    }
+    
+    func initiatePrivateRoomtRequest(roomID: String,listener:RoomListener) {
+        XSocketIOManager.sharedInstance.checkSocketRequest(inputValue: (Constant.key.PrivateRoomKey,roomID,listener)) {
+            self.requestCallback?()
+        }
+    }
+    
+    @objc func timerFunction(timerData: Timer) {
+
+        print("Fire timer function")
+        print("socket not connected timer alive")
+        guard let context = timerData.userInfo as? [String: Any] else { return }
+    
+        if let type = context["RequestType"] as? BackGroundRequestType,let key = context["roomID"] as? String,
+            let listener = context["ListenerKey"] as? RoomListener {
+            checkSocketConnection(requesType: type, roomID: key, moduleKey: listener)
+        }
+        
+        requestCallback?()
+    }
+    
+    func stopBackGroundRequest() {
+        
+        DispatchQueue.main.async {
+            if let _ = self.timer {
+                    self.timer.invalidate()
+                    self.timer = nil
+                    self.stopBackGroundRequest()
+                    print("stopBackGroundRequest")
+                }
+        }
+    }
+    
+    
+    
+}

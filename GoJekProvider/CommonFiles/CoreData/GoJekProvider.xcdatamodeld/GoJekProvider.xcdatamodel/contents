@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LoginData" representedClassName="LoginData" syncable="YES">
+        <attribute name="access_token" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserData" representedClassName="UserData" syncable="YES">
+        <attribute name="access_token" optional="YES" attributeType="String"/>
+        <attribute name="admin_id" optional="YES" attributeType="String"/>
+        <attribute name="city_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="company_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="country_code" optional="YES" attributeType="String"/>
+        <attribute name="country_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String"/>
+        <attribute name="created_by" optional="YES" attributeType="String"/>
+        <attribute name="created_type" optional="YES" attributeType="String"/>
+        <attribute name="deleted_at" optional="YES" attributeType="String"/>
+        <attribute name="deleted_by" optional="YES" attributeType="String"/>
+        <attribute name="deleted_type" optional="YES" attributeType="String"/>
+        <attribute name="device_id" optional="YES" attributeType="String"/>
+        <attribute name="device_token" optional="YES" attributeType="String"/>
+        <attribute name="device_type" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="email_verified_at" optional="YES" attributeType="String"/>
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="language" optional="YES" attributeType="String"/>
+        <attribute name="last_name" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="login_by" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="modified_by" optional="YES" attributeType="String"/>
+        <attribute name="modified_type" optional="YES" attributeType="String"/>
+        <attribute name="otp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="payment_gateway_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="payment_mode" optional="YES" attributeType="String"/>
+        <attribute name="picture" optional="YES" attributeType="String"/>
+        <attribute name="qrcode_url" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="referral_unique_id" optional="YES" attributeType="String"/>
+        <attribute name="social_unique_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="state_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="stripe_acc_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="token_type" optional="YES" attributeType="String"/>
+        <attribute name="updated_at" optional="YES" attributeType="String"/>
+        <attribute name="wallet_balance" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="XLocation" representedClassName="XLocation" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="LoginData" positionX="-338.40625" positionY="184.15625" width="128" height="58"/>
+        <element name="UserData" positionX="-63" positionY="-18" width="128" height="673"/>
+        <element name="XLocation" positionX="-317.10546875" positionY="353.20703125" width="142.6875" height="73"/>
+    </elements>
+</model>
